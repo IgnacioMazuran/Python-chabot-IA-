@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola", "Buen dia", "hola", "Buenas", "Que tal"],
+         "responses": ["Hola!", "Que tal!", "Hola! ¿En que puedo ayudarte?"],
+         "context_set": ""
+        },
+        {"tag": "adios",
+         "patterns": ["chau", "nos vemos", "adios", "gracias", "hasta luego"],
+         "responses": ["Hasta luego!", "Adios!", "Nos vemos!"],
+         "context_set": ""
+        },
+        {"tag": "camisas",
+         "patterns": ["tipo de camisas", "camisas", "precio camisas", "cuanto camisas"],
+         "responses": ["Tenemos camisas basicas planas y con diseño desde $1000", "Las camisas estan a $1000 las basicas y $1500 con diseños"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["", "", ""],
+         "responses": [".", "", ""],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["", "", "", ""],
+         "responses": ["", ""],
+         "context_set": ""
+        },
+        {"tag": "horario",
+         "patterns": ["en que horario atienden", "cuando puedo ir a buscarla", "disponible"],
+         "responses": ["Estamos de lunes a sabado de 15 a 21!"],
+         "context_set": ""
+        }
+   ]
+}
